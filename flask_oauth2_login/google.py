@@ -9,7 +9,6 @@ class GoogleLogin(OAuth2Login):
 
   default_scope = (
     "https://www.googleapis.com/auth/userinfo.email,"
-    "openid,"
     "https://www.googleapis.com/auth/userinfo.profile"
   )
   default_redirect_path = "/login/google"
